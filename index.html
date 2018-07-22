@@ -14,23 +14,34 @@
         <h2>统一建模语言理论测试</h2>
       </div>
     </div>
-
-    <div class="row text-left">
-      <div class="col-md-2">考试科目：</div>
-      <div class="col-md-2">统一建模语言</div>
-      <div class="col-md-2">时间：</div>
-      <div class="col-md-2">100分钟</div>
-      <div class="col-md-2">得分</div>
-      <div class="col-md-2">100</div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">班级：</div>
-      <div class="col-md-2">1班</div>
-      <div class="col-md-2">学好：</div>
-      <div class="col-md-2">001</div>
-      <div class="col-md-2">姓名</div>
-      <div class="col-md-2">王小闲</div>
-    </div>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="subject">考试科目：</label>
+        <input type="text" class="form-control" id="subject" value="统一建模语言">
+      </div>
+      <div class="form-group">
+        <label for="time">时间：</label>
+        <input type="email" class="form-control" id="time" value="100分钟">
+      </div>
+      <div class="form-group">
+        <label for="time">得分</label>
+        <input type="email" class="form-control" id="time" value="100">
+      </div>
+    </form>
+    <form class="form-inline">
+      <div class="form-group">
+        <label for="subject">班级：</label>
+        <input type="text" class="form-control" id="subject" value="1班">
+      </div>
+      <div class="form-group">
+        <label for="time">学号：</label>
+        <input type="email" class="form-control" id="time" value="001">
+      </div>
+      <div class="form-group">
+        <label for="time">姓名：</label>
+        <input type="email" class="form-control" id="time" value="王小闲">
+      </div>
+    </form>
     <div class="row">
       <div class="col-md-6">
         <h3>一、填空题（每空5分，共20分）</h3>
@@ -54,32 +65,48 @@
     <div class="row">
       <div class="col-md-3">1.UML与软件工程的关系是：</div>
     </div>
-    <div class="row">
-      <div class="col-md-4">(A)UML就是软件工程</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="first"> (A)UML就是软件工程
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(B)UML参与到软件工程中软件开发过程的几个阶段</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="first" checked> (B)UML参与到软件工程中软件开发过程的几个阶段
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(C)UML与软件工程无关</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="first"> (C)UML与软件工程无关
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(D)UML是软件工程的一部分</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="first"> (D)UML是软件工程的一部分
+      </label>
     </div>
     <div class="row">
       <div class="col-md-3">2.Java语言支持：</div>
     </div>
-    <div class="row">
-      <div class="col-md-4">(A)单继承</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="second" checked> (A)单继承
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(B)多继承</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="second"> (B)多继承
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(C)单继承和多继承都支持</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="second"> (C)单继承和多继承都支持
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(D)单继承和多继承都不支持</div>
+    <div class="radio">
+      <label>
+        <input type="radio" name="second"> (D)单继承和多继承都不支持
+      </label>
     </div>
     <div class="row">
       <div class="col-md-6">
@@ -89,32 +116,48 @@
     <div class="row">
       <div class="col-md-3">1.用例的粒度分为以下哪三种：</div>
     </div>
-    <div class="row">
-      <div class="col-md-4">(A)概述级</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (A)概述级
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(B)需求级</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (B)需求级
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(C)用户目标级</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> (C)用户目标级
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(D)子功能级</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (D)子功能级
+      </label>
     </div>
     <div class="row">
       <div class="col-md-3">2.类图由以下哪三部分组成</div>
     </div>
-    <div class="row">
-      <div class="col-md-4">(A)名称(Name)</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (A)名称(Name)
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(B)属性(Attribute)</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (B)属性(Attribute)
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(C)操作(Operation)</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked> (C)操作(Operation)
+      </label>
     </div>
-    <div class="row">
-      <div class="col-md-4">(D)方法(Function)</div>
+    <div class="checkbox">
+      <label>
+        <input type="checkbox"> (D)方法(Function)
+      </label>
     </div>
     <div class="row">
       <div class="col-md-6">
@@ -144,7 +187,7 @@
       <div class="col-md-6">1.简述什么是模型以及模型的表现形式？</div>
     </div>
     <div class="row">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
     </div>
   </div>
 
